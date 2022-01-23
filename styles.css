@@ -29,7 +29,10 @@ body{
 hr {
 
 	border-top: 10px dotted #00CCCC;
-
+  background-color: #FCFEF1;
+  opacity: 100%;
+  width: 40%;
+  margin: 100px auto;
 }
 
 .hidden
@@ -111,6 +114,10 @@ margin-top: 15px;
 }
 
 #contactMe {
-  background-color: #117F84;
+  background-color: #00CCCC;
   height: 300px;
+  width: 60%;
+  margin: 150px auto;
+  box-shadow: 0 0 10px 30px #00CCCC;
+  border-radius: 30px;
 }
