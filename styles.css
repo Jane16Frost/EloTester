@@ -1,0 +1,116 @@
+/*
+Website Colors -
+Ivory - #FCFEF1
+Light Teal - #00CCCC
+Dark Teal - #117F84
+Dark Gray - #545D64
+Light Gray - #A6AEB5
+
+Fonts -
+M Plus rounded 1c - 300, 500, 700, 800
+font-family: 'M PLUS Rounded 1c', sans-serif;
+
+Mukta Mahee - 200, 400, 700
+font-family: 'Mukta Mahee', sans-serif;
+ */
+h1, h2, h3, h4, h5, h6 {
+font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: 700;
+}
+
+a, p {
+font-family: 'Mukta Mahee', sans-serif;
+  font-weight: 400;
+}
+body{
+  background-color: #FCFEF1;
+}
+
+hr {
+
+	border-top: 10px dotted #00CCCC;
+
+}
+
+.hidden
+{
+  display: none;
+}
+
+.taskBar {
+  position: fixed;
+  text-align: right;
+  color: #00CCCC;
+  width: 100%;
+  padding: 0% 5%;
+  z-index: 1;
+}
+#taskbarSpacer
+{
+  height: 100px;
+  background-color: #116F74;
+}
+.icon {
+  width: 5%;
+}
+
+.taskBar a {
+  text-align: right;
+  color: #00CCCC;
+}
+
+.taskBar a:hover {
+  color: #A6AEB5;
+}
+
+.navBarButton {
+  color: #00CCCC;
+}
+
+#businessInfo {
+  background-image: linear-gradient(#116F74, #00CCCC, #FCFEF1);
+  height: 600px;
+}
+
+.ELOTitle {
+  text-align: center;
+}
+
+#features {
+  text-align: center;
+  padding: 5% 0;
+  height: 500px;
+}
+
+#aboutMe {
+  padding: 5% 5%;
+
+}
+.profilePic
+{
+  border-radius: 250px;
+  width: 70%;
+}
+
+#aboutMe p
+{
+  font-size: 24px;
+}
+.infoBubble
+{
+color: #A6AEB5;
+margin-top: 15px;
+}
+.infoTitle
+{
+  color: #A6AEB5;
+}
+
+#simpleServices {
+  height: 700px;
+}
+
+#contactMe {
+  background-color: #117F84;
+  height: 300px;
+}
