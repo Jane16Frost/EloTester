@@ -37,7 +37,7 @@
         <img src="images\Brandname.png" class="icon">
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <h2 class="navBarButton">=</h2>
+          <h2 class="navBarButton"><i class="fas fa-bars"></i></h2>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -54,7 +54,7 @@
               <a class="nav-link" href="#simpleServices">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contactMe">Learn More</a>
+              <a class="nav-link" href="#contactMe">Contact Info</a>
             </li>
           </ul>
         </div>
@@ -96,10 +96,15 @@
             Features/ Elo info
 ********************************* -->
   <div id="features">
-    <h2 class = 'line1 featLine'>Running a buisness shouldn't be diffcult</h2>
-    <h2 class = 'line2 featLine'>If your having trouble knowing where to start. . .</h2>
-    <h1 class = 'line3 featLine'>We're here for you</h1>
-    <h4 class = 'line4 featLine'>At Effortless Life Operations we beleive everyone can own a buissness.</h4>
+    <h2 class='line1 featLine'>Running a buisness shouldn't be diffcult</h2>
+    <h2 class='line2 featLine'>If your having trouble knowing where to start. . .</h2>
+    <h1 class='line3 featLine'>We're here for you</h1>
+    <h4 class='line4 featLine'>At Effortless Life Operations we beleive everyone can own a buissness.</h4>
+    <div class="buttonPlace">
+      <a href="services.html" role="button" class="FeatBtn">See our Services</a>
+      <a href="services.html" role="button" class="FeatBtn">Book a Consult</a>
+    </div>
+
   </div> <!-- closes footer -->
 
   <!-- ******************************
@@ -107,17 +112,17 @@
 ******************************** -->
 
   <div id="aboutMe">
-    <hr style="margin-top: 5%">
+    <hr style="margin-top: 25%">
     <div class="row">
 
-      <div class="col-4">
+      <div class="col-lg-4">
         <!-- Immage -->
         <div class="bioLeftside">
           <img class="profilePic" src="images\TheresaProfile.png" alt="">
         </div>
 
       </div>
-      <div class="col-8">
+      <div class="col-lg-8">
 
         <div class="infoBubble">
           <!-- Info Bubble -->
@@ -134,7 +139,7 @@
       </div>
 
     </div>
-    <hr style="margin-bottom: 10%">
+    <hr style="margin-bottom: 25%">
   </div> <!-- Closes About Me -->
 
 
@@ -145,7 +150,10 @@
     <table class="service">
       <tr>
         <td><i class="fas fa-comments ssIcon"></i></td>
-        <td><i class="fas fa-handshake ssIcon"></i></td>
+        <td>
+          <!-- <i class="fas fa-handshake ssIcon"></i> -->
+          <i class="fas fa-folder-open ssIcon"></i>
+        </td>
         <td><i class="fas fa-cogs ssIcon"></i></td>
       </tr>
       <tr>
@@ -161,7 +169,7 @@
       </tr>
       <tr>
         <td>
-          <h3 class="serviceTagline">Have questions on how to run a buisness?</h3>
+          <h3 class="serviceTagline">Have questions on running your buisness?</h3>
         </td>
         <td>
           <h3 class="serviceTagline">Need help to make your buisness effortless?</h3>
@@ -202,13 +210,41 @@
         </td>
       </tr>
     </table>
+    <div class="serviceMobile">
+      <div class="consultingService mobServ">
+        <i class="fas fa-comments ssIcon"></i>
+        <h2 class="serviceTitle">Consulting</h2>
+        <h3 class="serviceTagline">Have questions on running your buisness?</h3>
+        <div class="serviceLinks">
+          <a href="services.html" role="button" class="serviceBtn">Learn More</a>
+        </div>
+      </div>
+      <div class="BuisOpService mobServ">
+        <i class="fas fa-folder-open ssIcon"></i>
+        <h2 class="serviceTitle">Buisness Operations</h2>
+        <h3 class="serviceTagline">Need help to make your buisness effortless?</h3>
+        <div class="serviceLinks">
+          <a href="services.html" role="button" class="serviceBtn">Learn More</a>
+        </div>
+      </div>
+      <div class="DayToDayService mobServ">
+        <i class="fas fa-cogs ssIcon"></i>
+        <h2 class="serviceTitle">Day to Day Operations</h2>
+        <h3 class="serviceTagline">Are you struggling with overwhelming tasks?</h3>
+        <div class="serviceLinks">
+          <a href="services.html" role="button" class="serviceBtn">Learn More</a>
+        </div>
+      </div>
+
+    </div>
+
   </div> <!-- closes Simple Services -->
 
   <!-- ********************************
           Contact Me
 ********************************* -->
   <div id="contactMe">
-  <h2 class="GITtext">Get in Touch</h2>
+    <h2 class="GITtext">Get in Touch</h2>
 
     <a href="#" class="iconLinks"><i class="fab fa-facebook-square"></i></a>
     <a href="#" class="iconLinks"><i class="fab fa-linkedin"></i></a>

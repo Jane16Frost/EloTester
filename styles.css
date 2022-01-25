@@ -28,7 +28,6 @@ body{
 }
 
 hr {
-
 	border-top: 15px dotted #00CCCC;
   background-color: #FCFEF1;
   opacity: 50%;
@@ -56,7 +55,7 @@ hr {
   background-color: #116F74;
 }
 .icon {
-  width: 20%;
+  width: 25%;
 }
 
 .taskBar a {
@@ -70,6 +69,14 @@ hr {
 
 .navBarButton {
   color: #00CCCC;
+}
+@media (max-width: 992px){
+.taskBar{
+  background-image: linear-gradient(#A6AEB5 0%, #FCFEF1 100%);
+}
+.icon{
+  width: min(40%, 200px);
+}
 }
 
 #businessInfo {
@@ -91,13 +98,21 @@ color: #00CCCC;
   font-family: 'Mukta Mahee', sans-serif;
   color: #545D64;
 }
-
+@media (max-width: 992px) {
+  .ELOTitle h2 {
+  font-size: 24px;
+  }
+  .ELOTitle h1
+  {
+    font-size: 56px;
+  }
+}
 #features {
   text-align: center;
   padding: 7% 0 2%;
 }
 .featLine{
-  padding: 2% 5%;
+  padding: 3% 5%;
 }
 .line1{
   margin-left: 30%;
@@ -117,9 +132,59 @@ color: #00CCCC;
   color: #00CCCC;
   margin-left: 10%;
 }
+.buttonPlace{
+  margin: 7% 3%;
+}
+.FeatBtn {
+  padding: 1% 2%;
+  text-decoration: none;
+  color: #117F84;
+  border: 5px solid #00CCCC;
+  border-radius: 15px;
+  font-size: 28px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  margin: 0 3%;
+}
+.FeatBtn:hover {
+  background-image: linear-gradient(#00CCCC, #117F84);
+  border: 5px solid #117F84;
+  color: #FCFEF1;
+}
+@media (max-width: 992px) {
+  .featLine{
+    padding: 3% 2%;
+  }
+  .line1{
+    margin-left: 10%;
+    font-size: 20px;
+  }
+  .line2 {
+    margin-right: 20%;
+    font-size: 18px;
+    padding: 7% 1%;
+  }
+  .line3 {
+    font-size: 54px;
+  }
+  .line4 {
+    margin-left: 3%;
+    font-size: 18px;
+  }
+  .buttonPlace{
+    margin: 10% 3%;
+  }
+  .FeatBtn {
+    padding: 1% 2%;
+    border: 3px solid #00CCCC;
+    border-radius: 7px;
+    font-size: 16px;
+  }
+  .FeatBtn:hover {
+    border: 3px solid #117F84;
+  }
+}
 #aboutMe {
   padding: 0 7%;
-
 }
 .profilePic
 {
@@ -151,6 +216,30 @@ margin-top: 15px;
 {
   color: #117F84;
 }
+@media (max-width: 992px){
+.bioLeftside{
+  text-align: center;
+}
+.profilePic{
+  width: 40%;
+}
+#aboutMe{
+  text-align: center;
+  padding: 0 10%;
+}
+#aboutMe p{
+  font-size: 18px;
+}
+#aboutMe h4{
+  font-size: 20px;
+}
+#aboutMe h5{
+  font-size: 16px;
+}
+hr{
+  border-top: 5px dotted #00CCCC;
+}
+}
 td{
   width: 30%;
 }
@@ -160,6 +249,10 @@ td{
 }
 .service{
   text-align: center;
+}
+.serviceMobile
+{
+  display: none;
 }
 .ssIcon{
   font-size: 96px;
@@ -211,29 +304,61 @@ td{
   box-shadow: 0px 0px 15px #00CCCC;
   color: #00CCCC;
 }
-
+@media (max-width: 992px) {
+  #simpleServices
+  {
+    padding: 0% 5%;
+  }
+  .service{
+    display: none;
+  }
+  .serviceMobile{
+    text-align: center;
+    display: block;
+  }
+  .mobServ{
+    padding: 7% 2%;
+  }
+  .serviceLinks
+  {
+    padding: 15% 2%;
+  }
+}
 #contactMe {
-  background-color: #00CCCC;
-  width: 60%;
+  background-color:#FCFEF1;
+  /* background-image: radial-gradient(#00CCCC 45%, #FCFEF1 75%); */
   margin: 150px auto;
-  border: 25px double #117F84;
-  border-radius: 50px;
+  width: 50%;
+  border: 10px dotted #117F84;
+  border-radius: 250px;
   text-align: center;
-  padding: 2% 3%;
+  padding: 2% 1%;
 }
 .GITtext
 {
-  color: #116F74;
-  font-size: 48px;
+  color: #117F84;
+  font-size: 62px;
   margin: 3% 0 5%;
   font-family: 'Mukta Mahee', sans-serif;
 
 }
 .iconLinks{
   color: #117F84;
-  font-size: 24px;
+  font-size: 28px;
   margin: 5%;
 }
 .iconLinks:hover{
-  color:#A6AEB5;
+  color:#00CCCC;
+}
+@media (max-width: 992px) {
+#contactMe{
+  width: 80%;
+  border: 5px dotted #117F84;
+}
+.GITtext{
+  font-size: 48px;
+}
+.iconLinks{
+  font-size: 24px;
+}
 }
