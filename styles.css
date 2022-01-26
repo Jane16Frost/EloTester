@@ -3,8 +3,8 @@ Website Colors -
 Ivory - #FCFEF1
 Light Teal - #00CCCC
 Dark Teal - #117F84
-Dark Gray - #545D64
-Light Gray - #A6AEB5
+Dark Gray - #545D64  #313f44
+Light Gray - #A6AEB5 #c2d3d6
 
 Fonts -
 M Plus rounded 1c - 300, 500, 700, 800
@@ -64,7 +64,7 @@ hr {
 }
 
 .taskBar a:hover {
-  color: #A6AEB5;
+  color: #c2d3d6;
 }
 
 .navBarButton {
@@ -72,7 +72,7 @@ hr {
 }
 @media (max-width: 992px){
 .taskBar{
-  background-image: linear-gradient(#A6AEB5 0%, #FCFEF1 100%);
+  background-image: linear-gradient(#c2d3d6 0%, #FCFEF1 100%);
 }
 .icon{
   width: min(40%, 200px);
@@ -96,7 +96,7 @@ color: #00CCCC;
 {
   font-size: 96px;
   font-family: 'Mukta Mahee', sans-serif;
-  color: #545D64;
+  color: #313f44;
 }
 @media (max-width: 992px) {
   .ELOTitle h2 {
@@ -209,7 +209,7 @@ color: #00CCCC;
 }
 .infoBubble
 {
-color: #A6AEB5;
+color: #c2d3d6;
 margin-top: 15px;
 }
 .infoTitle
@@ -279,7 +279,7 @@ td{
 {
   text-align: left;
   padding: 0 3% 0 5%;
-  color: #545D64;
+  color: #313f44;
   font-size: 16px;
 }
 .serviceLinks{
@@ -290,7 +290,7 @@ td{
   padding: 10px 15px;
   background-color: #00CCCC;
   background-image: linear-gradient(155deg, #00CCCC, #117F84);
-  /* box-shadow: 0px 0px 10px #545D64; */
+  /* box-shadow: 0px 0px 10px #313f44; */
   border-radius: 25px;
   color: #FCFEF1;
   text-decoration: none;
@@ -300,7 +300,7 @@ td{
 }
 .serviceBtn:hover{
   background-color: #117F84;
-  background-image: linear-gradient(155deg, #A6AEB5, #545D64);
+  background-image: linear-gradient(155deg, #c2d3d6, #313f44);
   box-shadow: 0px 0px 15px #00CCCC;
   color: #00CCCC;
 }
