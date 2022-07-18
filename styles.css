@@ -106,15 +106,15 @@ hr {
 @media (max-width: 992px) {
   .ELOTitle {
     text-align: center;
-    margin: 0 2%;
+    margin: 0 4%;
   }
 
   .ELOTitle h2 {
-    font-size: 40px;
+    font-size: 32px;
   }
 
   .ELOTitle h1 {
-    font-size: 92px;
+    font-size: 72px;
   }
 }
 
@@ -147,7 +147,7 @@ hr {
 }
 
 .buttonPlace {
-  margin: 7% 3%;ds
+  margin: 7% 3%;
   text-align: center;
 }
 
@@ -175,7 +175,7 @@ hr {
 
   .line1 {
     text-align: center;
-    font-size: 24px;
+    font-size: 16px;
   }
 
   .line2 {
@@ -187,25 +187,26 @@ hr {
   }
 
   .line4 {
-    margin-left: 3%;
-    font-size: 32px;
+    margin: 0 5%;
+    font-size: 24px;
     color: #116F74;
   }
 
   .buttonPlace {
     margin-top: 15%;
     margin-bottom: 20%;
+    text-align: center;
   }
 
   .FeatBtn {
-    padding: 3% 4%;
+    padding: 4% 2%;
     border: 5px solid #00CCCC;
     border-radius: 15px;
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .FeatBtn:hover {
-    border: 3px solid #117F84;
+    border: 5px solid #117F84;
   }
 }
 
@@ -441,6 +442,15 @@ text-align: center;
 padding: 0 5%;
 color: #116F74;
 }
+.consultingMobile{
+  display: none;
+}
+.DaytoDayMobile{
+  display: none;
+}
+.BusinessOpMobile{
+  display: none;
+}
 .testParagraph{
   font-size: 16px;
   margin: 5% 0;
@@ -558,4 +568,52 @@ color: #116F74;
   width: 25vw;
   /* background-color: #116F74; */
   /* height: 500px; */
+}
+
+@media (max-width: 992px) {
+  .consultingComp{
+    display: none;
+  }
+  .consultingMobile{
+    display: block;
+        margin: 10% 0;
+  }
+  .consultingSpace{
+    width: 100%;
+    padding:10%;
+  }
+  .DaytoDayComp{
+    display: none;
+  }
+  .DaytoDayMobile{
+    display: block;
+    margin: 10% 0;
+  }
+  .DaytoDaySpace{
+    width: 100%;
+        padding:10%;
+  }
+  .BusinessOpComp{
+    display:none;
+  }
+  .BusinessOpMobile{
+    display: block;
+        margin: 10% 0;
+  }
+  .BusinessOPSpace{
+    width: 100%;
+        padding:20% 10%;
+  }
+  .packageTitle{
+    font-size: 36px;
+  }
+  .packageList{
+    font-size: 18px;
+  }
+  .packageSale{
+    font-size: 14px;
+  }
+  .packageBtn{
+    margin: 10%;
+  }
 }
