@@ -262,7 +262,7 @@ hr {
   }
 
   .profilePic {
-    width: 60%;
+    width: 40%;
     margin-bottom: 15px;
   }
   .infoBubble{
@@ -488,7 +488,7 @@ color: #116F74;
 
 }
 .packageBtn:hover{
-  background-image: linear-gradient(#00CCCC, #116F74);
+  background-image: linear-gradient(300deg, #00CCCC, #116F74);
   /* border: 5px solid #FCFEF1; */
   color: #FCFEF1;
 }
@@ -514,7 +514,7 @@ color: #116F74;
 }
 #BusinessOperation{
   text-align: center;
-  margin: 5% auto;
+  margin: 15% auto 5%;
 }
 #DayToDayOperation{
   text-align: center;
@@ -569,7 +569,9 @@ color: #116F74;
   /* background-color: #116F74; */
   /* height: 500px; */
 }
-
+.mobileBtn{
+  text-align: center;
+}
 @media (max-width: 992px) {
   .consultingComp{
     display: none;
@@ -580,8 +582,12 @@ color: #116F74;
   }
   .consultingSpace{
     width: 100%;
-    padding:10%;
+    padding: 5% 25% 5% 5%;
+    border-radius: 10px 100px;
+    text-align: left;
+    background-image: linear-gradient(135deg, #00CCCC, #FCFEF1 50%);
   }
+
   .DaytoDayComp{
     display: none;
   }
@@ -591,7 +597,13 @@ color: #116F74;
   }
   .DaytoDaySpace{
     width: 100%;
-        padding:10%;
+    padding: 5% 5% 5% 25%;
+    border-radius: 100px 10px;
+    text-align: right;
+    background-image: linear-gradient(235deg, #00CCCC, #FCFEF1 50%);
+  }
+  .DaytoDaySpace .packageList{
+    margin-left: 20%;
   }
   .BusinessOpComp{
     display:none;
@@ -602,18 +614,52 @@ color: #116F74;
   }
   .BusinessOPSpace{
     width: 100%;
-        padding:20% 10%;
+    padding: 5%;
+    border-radius: 10px 10px 100px 100px;
+    background-image: linear-gradient(180deg, #00CCCC, #FCFEF1 50%);
+
+  }
+  .BusinessOPSpace .packageTitle{
+    margin-bottom: 5%;
   }
   .packageTitle{
     font-size: 36px;
   }
   .packageList{
     font-size: 18px;
+    margin: 5% 0;
+
   }
   .packageSale{
     font-size: 14px;
   }
   .packageBtn{
-    margin: 10%;
+    margin: 20% auto;
+    font-size: 18px;
+    padding: 3% 4%;
+
+  }
+  .packageInfo{
+    margin-bottom: 15%;
+  }
+  .mobileTest{
+  margin: 5% 15%;
+
+  }
+  .testParagraph{
+    font-size: 12px;
+  }
+  .testPicBox2{
+    width:5vw;
+  }
+  .testPerson{
+    width: 35vw;
+  }
+  .testBusName{
+    font-size: 14px;
+
+  }
+  .testName{
+    font-size: 12px;
   }
 }
