@@ -568,7 +568,7 @@ color: #116F74;
   /* height: 400px; */
   /* width: 90vw; */
   background-color: #00CCCC;
-  background-image: linear-gradient(180deg, #00CCCC 10%, #FCFEF1 90%);
+  background-image: linear-gradient(180deg, #00CCCC 10%, #FCFEF1 80%);
   border-radius: 200px;
   padding: 6% 10%;
   /* margin: 10% auto; */
@@ -683,4 +683,87 @@ color: #116F74;
   .testName{
     font-size: 12px;
   }
+}
+
+.PopUp{
+  width: 80%;
+  height: 80vh;
+  position: fixed;
+  margin: 10vh 10%;
+  background-color: rgba(17, 112, 116, 0.8);
+  background-image: linear-gradient(135deg, rgba(252, 254, 241, 1) 10%, rgba(0, 204, 204, 0.5));
+  border-radius: 100px;
+  padding: 5% 10%;
+}
+.formTitle{
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  color: #116F74;
+  /* width: 20%; */
+}
+.box{
+  background-color: #116F74;
+  color: #FCFEF1;
+  border-radius: 20px;
+  padding: 2px 10px;
+  font-size: 20px;
+  margin: 10px 5px;
+  border: 5px #00CCCC solid;
+  outline: none;
+  font-family: 'Mukta Mahee', sans-serif;
+
+}
+.box:hover{
+  background-image: linear-gradient(300deg, #00CCCC, #116F74 70%);
+  color: #FCFEF1;
+}
+/* .box:focus{
+  border: 5px #00CCCC solid;
+} */
+.messageBox{
+  width: 100%;
+  /* height: 150px; */
+  /* overflow: scroll; */
+}
+.nameBox{
+  width: 65%;
+}
+.emailBox{
+  width: 65%;
+}
+.submitBtn{
+  color: #00CCCC;
+  background-color: #116F74;
+  margin: 10px 5px;
+  border: 5px #00CCCC solid;
+  padding: 2px 50px;
+  border-radius: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+
+}
+.submitBtn:hover{
+  background-image: linear-gradient(300deg, #00CCCC, #116F74 70%);
+  color: #FCFEF1;
+}
+
+.closeBtn{
+  /* padding: 1%; */
+  background-color: #116F74;
+  text-decoration: none;
+  color: #00CCCC;
+  border: 3px solid #00CCCC;
+  border-radius: 10px;
+  font-size: 12px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  /* margin: 0 3%; */
+  height:30px;
+  width: 30px;
+}
+.closeBtn:hover{
+  background-image: linear-gradient(300deg, #00CCCC 30%, #116F74);
+  /* border: 5px solid #FCFEF1; */
+  color: #FCFEF1;
 }
