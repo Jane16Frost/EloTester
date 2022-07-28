@@ -263,6 +263,15 @@ hr {
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
+.lightGradientText {
+  background-color: #117F84;
+  background-image: linear-gradient(135deg, #FCFEF1, #00CCCC);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
 
 .infoBubble {
   color: #c2d3d6;
@@ -693,7 +702,7 @@ color: #116F74;
   background-color: rgba(17, 112, 116, 0.8);
   background-image: linear-gradient(135deg, rgba(252, 254, 241, 1) 10%, rgba(0, 204, 204, 0.5));
   border-radius: 100px;
-  padding: 5% 10%;
+  padding: 5% 5%;
 }
 .formTitle{
   font-size: 24px;
@@ -737,12 +746,12 @@ color: #116F74;
   background-color: #116F74;
   margin: 10px 5px;
   border: 5px #00CCCC solid;
-  padding: 2px 50px;
+  padding: 20px 15px;
   border-radius: 20px;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 700;
   font-family: 'M PLUS Rounded 1c', sans-serif;
-
+  text-decoration: none;
 }
 .submitBtn:hover{
   background-image: linear-gradient(300deg, #00CCCC, #116F74 70%);
@@ -758,6 +767,7 @@ color: #116F74;
   border-radius: 10px;
   font-size: 12px;
   font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: 800;
   /* margin: 0 3%; */
   height:30px;
   width: 30px;
@@ -766,4 +776,69 @@ color: #116F74;
   background-image: linear-gradient(300deg, #00CCCC 30%, #116F74);
   /* border: 5px solid #FCFEF1; */
   color: #FCFEF1;
+}
+
+.popUpPic{
+  width: 100%;
+  border-radius: 50px;
+}
+.photo{
+  display: inline-block;
+  width: 30%;
+  position: relative;
+  bottom:15vh;
+  text-align: center;
+
+}
+.bio{
+  display: inline-block;
+  width: 60%;
+  margin-left: 5%;
+  color: #116F74;
+  text-align: center;
+  padding-top: 10vh;
+}
+.closeBtnBox{
+  text-align:right;
+   width: 100%;
+}
+
+@media (max-width: 992px) {
+.PopUp{
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  border-radius: 0px;
+  text-align: center;
+}
+.photo{
+  display: block;
+  bottom: 0vh;
+  width: auto;
+  margin: 0 35%;
+}
+/* .closeBtnBox{
+  margin-top: 50px;
+} */
+.closeBtn{
+  width: 50px;
+  height: 50px;
+  font-size: 28px;
+}
+.bio{
+  padding-top: 10px;
+  width: 100%;
+  margin-left: 0;
+}
+/* .submitBtn{
+  font-size: 18px;
+} */
+}
+@media (max-width: 650px) {
+.photo{
+  margin: 0 30%;
+}
+.submitBtn{
+  font-size: 18px;
+}
 }

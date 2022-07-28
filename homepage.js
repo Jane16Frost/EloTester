@@ -6,10 +6,12 @@ $(".nav-item").click(function(){
 $(".packageBtn").click(function()
 {
   $(".PopUp").removeClass('hidden');
+  $(".taskBar").addClass('hidden');
 
 });
 
 $(".closeBtn").click(function()
 {
     $(".PopUp").addClass('hidden');
+    $(".taskBar").removeClass('hidden');
 });
