@@ -15,3 +15,10 @@ $(".closeBtn").click(function()
     $(".PopUp").addClass('hidden');
     $(".taskBar").removeClass('hidden');
 });
+
+$(".emailBtn").click(function()
+{
+  $(".PopUp").removeClass('hidden');
+  $(".taskBar").addClass('hidden');
+
+});

@@ -145,26 +145,27 @@ hr {
 
 .line1 {
   margin-left: 2%;
-  color: #FCFEF1;
+  color: #116F74;
 }
 
 .line2 {
   margin-right: 2%;
   text-align: right;
-  color: #FCFEF1;
+  color: #116F74;
 }
 
-.line3 {
+/* .line3 {
   color: #116F74;
   text-align: center;
   font-size: 76px;
-  font-family: 'Mukta Mahee', sans-serif;
   padding: 5% 0;
-}
+} */
 
 .line4 {
   color: #00CCCC;
   text-align: center;
+  font-size: 36px;
+  font-family: 'Mukta Mahee', sans-serif;
 }
 
 .buttonPlace {
@@ -190,27 +191,32 @@ hr {
 }
 
 @media (max-width: 992px) {
+  #businessInfo {
+    background-image: linear-gradient(#116F74, #00CCCC, #FCFEF1 87%);
+    /* height: 600px; */
+  }
   .featLine {
     padding: 3% 2%;
   }
 
   .line1 {
-    text-align: center;
-    font-size: 16px;
+    /* text-align: center;
+    font-size: 16px; */
+    display: none;
   }
 
   .line2 {
     display: none;
   }
 
-  .line3 {
+  /* .line3 {
     display: none;
-  }
+  } */
 
   .line4 {
     margin: 0 5%;
     font-size: 24px;
-    color: #116F74;
+    color: #FCFEF1;
   }
 
   .buttonPlace {
