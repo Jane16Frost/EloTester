@@ -39,7 +39,9 @@ hr {
 .hidden {
   display: none;
 }
-
+.invisible{
+  visibility: hidden;
+}
 .taskBar {
   position: fixed;
   /* top: 0; */
@@ -164,7 +166,7 @@ hr {
 .line4 {
   color: #00CCCC;
   text-align: center;
-  font-size: 36px;
+  font-size: 36;
   font-family: 'Mukta Mahee', sans-serif;
 }
 

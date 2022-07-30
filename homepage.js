@@ -7,6 +7,7 @@ $(".packageBtn").click(function()
 {
   $(".PopUp").removeClass('hidden');
   $(".taskBar").addClass('hidden');
+  $("hr").addClass("invisible");
 
 });
 
@@ -14,11 +15,13 @@ $(".closeBtn").click(function()
 {
     $(".PopUp").addClass('hidden');
     $(".taskBar").removeClass('hidden');
+    $('hr').removeClass('invisible');
 });
 
 $(".emailBtn").click(function()
 {
   $(".PopUp").removeClass('hidden');
   $(".taskBar").addClass('hidden');
+  $("hr").addClass("invisible");
 
 });
